@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Track</name>
+    
+    <Placemark>
+      <name>Access track</name>
+      <LineString><coordinates>75.00000000,12.66418788 75.02302337,12.66418689</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Centre pin</name>
+      <Point><coordinates>75.00460476,12.66870931</coordinates></Point>
+    </Placemark>
+            
+  </Document>
+</kml>

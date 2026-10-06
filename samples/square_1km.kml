@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Square kilometre</name>
+    
+    <Placemark>
+      <name>North plot</name>
+      <description>1 km square built in UTM zone 43N, written here as WGS 84.</description>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>75.00920935,12.66418772 75.00920967,12.67323067 75.00000000,12.67323083 75.00000000,12.66418788 75.00920935,12.66418772</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+            
+  </Document>
+</kml>
