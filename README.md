@@ -1,5 +1,7 @@
 # Geospatial File Measurement API
 
+https://github.com/manishpravesh/geospatial-measurement-api
+
 Upload a zipped shapefile, a KML file, or a KMZ archive. The service reads each feature and returns its geometry, attributes, and a measurement in metres.
 
 Polygons get an area. Lines get a length. Points are returned as they are, with no measurement. If a geometry cannot be measured, that feature is reported with a note and the rest of the file still goes through.
@@ -8,7 +10,7 @@ Geographic coordinates are projected before anything is calculated. A file in EP
 
 ## Setup
 
-Python 3.11 or 3.12. The Docker image uses 3.12. You do not need a separate GDAL install: the shapefile reader uses GeoPandas, and the wheels pull in their own GDAL.
+Python 3.11 or 3.12. CI and the Docker image use 3.12. You do not need a separate GDAL install: the shapefile reader uses GeoPandas, and the wheels pull in their own GDAL.
 
 From the project root:
 
