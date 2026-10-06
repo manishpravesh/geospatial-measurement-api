@@ -1,6 +1,6 @@
 # Geospatial File Measurement API
 
-https://github.com/manishpravesh/geospatial-measurement-api
+Public repository: https://github.com/manishpravesh/geospatial-measurement-api
 
 Upload a zipped shapefile, a KML file, or a KMZ archive. The service reads each feature and returns its geometry, attributes, and a measurement in metres.
 
