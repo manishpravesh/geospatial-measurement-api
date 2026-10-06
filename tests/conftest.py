@@ -1,4 +1,10 @@
+import warnings
 from pathlib import Path
+
+warnings.filterwarnings(
+    "ignore",
+    message=r"Using `httpx` with `starlette\.testclient` is deprecated",
+)
 
 import pytest
 from fastapi.testclient import TestClient

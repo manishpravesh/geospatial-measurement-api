@@ -8,7 +8,7 @@ Geographic coordinates are projected before anything is calculated. A file in EP
 
 ## Setup
 
-Python 3.11 or 3.12. CI runs the suite on 3.12. You do not need a separate GDAL install: the shapefile reader uses GeoPandas, and the wheels pull in their own GDAL.
+Python 3.11 or 3.12. The Docker image uses 3.12. You do not need a separate GDAL install: the shapefile reader uses GeoPandas, and the wheels pull in their own GDAL.
 
 From the project root:
 
